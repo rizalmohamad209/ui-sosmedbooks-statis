@@ -1,0 +1,78 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap";
+* {
+  font-family: "Poppins", sans-serif;
+}
+.search .fa-search {
+  margin-left: 350px;
+  z-index: 1;
+  position: absolute;
+}
+.btn {
+  margin-right: 17px;
+}
+
+.my-slider .badge-linear-blue {
+  background: linear-gradient(118.85deg, #6e79e5 5.38%, #0a0529 100.35%);
+}
+.my-slider .badge-linear-red {
+  background: linear-gradient(120.27deg, #7a284c 22.3%, #e95b2b 100.93%);
+}
+.my-slider .badge-linear-pink {
+  background: linear-gradient(328.64deg, #f7e9e0 -26.33%, #f7a1a0 74.45%);
+}
+
+.btn {
+  width: 130px;
+}
+
+@media (max-width: 600px) {
+  .search .fa-search {
+    margin-left: 180px;
+  }
+
+  .padgePadding {
+    width: 250px !important;
+    height: 250px !important;
+    padding-left: 30px;
+  }
+
+  .wrap-logo {
+    display: none;
+  }
+  .card-books {
+    margin-right: 10px;
+  }
+
+  .card-books .cover {
+    width: 80px !important;
+    height: 120px !important;
+  }
+
+  .bintang {
+    margin-left: -15px;
+  }
+  .card-books p {
+    font-size: 10px;
+    margin-left: -15px;
+  }
+  .category-text {
+    margin-left: 40px !important;
+  }
+  .category {
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .books .card-books {
+    width: 160px !important;
+  }
+  #sidebar {
+    margin-top: 70px !important;
+  }
+}
+@media (max-width: 400px) {
+  #logo {
+    display: none;
+  }
+}
